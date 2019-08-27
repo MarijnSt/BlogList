@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "dit is zowaar nog een test",
+    "author": "niet marijn",
+    "url": "www.elaba.be",
+    "likes": "666"
+}
