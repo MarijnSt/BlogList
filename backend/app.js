@@ -1,11 +1,11 @@
 const config = require('./utils/config')
-const express = require('express')
-const bodyParser = require('body-parser')
-const app = express()
-const cors = require('cors')
-const blogRouter = require('./controllers/posts')
-const middleware = require('./utils/middleware')
-const mongoose = require('mongoose')
+    , express = require('express')
+    , bodyParser = require('body-parser')
+    , app = express()
+    , cors = require('cors')
+    , blogRouter = require('./controllers/posts')
+    , middleware = require('./utils/middleware')
+    , mongoose = require('mongoose')
 
 console.log('Connecting to db...')
 
